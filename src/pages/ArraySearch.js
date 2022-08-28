@@ -59,18 +59,20 @@ export default function ArraySearch() {
     <div className="array-search-landing">
       <h1>Array with search filter</h1>
 
+      <p>Add a User:</p>
       <form onSubmit={(e) => handleNameSubmit(e)}>
-        <label>
-          Name:{" "}
+        <div className="label-row">
+          <label>Name: </label>
           <input
             type="text"
             name="name"
             onChange={(e) => setNewName(e.target.value)}
             required
+            className="name-input"
           />
-        </label>
-        <label>
-          Age:{" "}
+        </div>
+        <div className="label-row">
+          <label>Age: </label>
           <input
             type="number"
             min={0}
@@ -79,7 +81,7 @@ export default function ArraySearch() {
             onChange={(e) => setNewAge(e.target.value)}
             required
           />
-        </label>
+        </div>
         <input type="submit" value="Add to List" />
       </form>
 

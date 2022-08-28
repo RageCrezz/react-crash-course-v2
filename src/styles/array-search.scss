@@ -10,6 +10,24 @@
     align-items: center;
     box-sizing: border-box;
 
+    form {
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+
+        .label-row {
+            margin-bottom: 8px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            label {
+                width: 48px;
+                margin-right: 16px;
+            }
+        }
+    }
+
     ul {
         margin: 32px 0;
         padding: 0;
