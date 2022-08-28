@@ -14,6 +14,9 @@ export default function Home() {
           <a href="/todo">Todo List</a>
         </li>
         <li>
+          <a href="/search-list">Array Search</a>
+        </li>
+        <li>
           <a href="/pokedex">PokéDex</a>
         </li>
       </ul>

@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import Counter from "./pages/Counter";
 import Todo from "./pages/Todo";
 import Pokedex from "./pages/Pokedex";
+import ArraySearch from "./pages/ArraySearch";
 
 // Style import
 import "./styles/index.scss";
@@ -37,6 +38,7 @@ root.render(
         <Route path="/" element={<Home />} />
         <Route path="/counter" element={<Counter />} />
         <Route path="/todo" element={<Todo />} />
+        <Route path="/search-list" element={<ArraySearch />} />
         <Route path="/pokedex" element={<Pokedex />} />
       </Routes>
     </Router>

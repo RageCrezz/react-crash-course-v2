@@ -1,3 +1,6 @@
 {
-  "conventionalCommits.scopes": ["build"]
+  "conventionalCommits.scopes": [
+    "build",
+    "array-search"
+  ]
 }
