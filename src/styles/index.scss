@@ -1,0 +1,38 @@
+@import url('./counter.scss');
+@import url('./todo.scss');
+@import url('./home.scss');
+@import url('./pokedex.scss');
+
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ECD5E3;
+}
+
+body {  
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.link-root-constant {
+    padding: 8px 16px;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    color: white;
+    border: 3px solid white;
+    background-color: #A7C7E7;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 250ms ease;
+    z-index: 25;
+
+    &:hover {
+        color: #A7C7E7;
+        background-color: white;
+    }
+}

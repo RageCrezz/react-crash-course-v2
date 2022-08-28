@@ -1,0 +1,44 @@
+.home-landing {
+    width: 100%;
+    max-width: 768px;
+    height: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEE1E8;
+    
+    h1 {
+        margin-bottom: 16px;
+    }
+
+    p {
+        margin-bottom: 32px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+
+        li {
+            margin-bottom: 8px;
+
+            a {
+                color: #E74C3C;
+                font-weight: 600;
+                text-decoration: none;
+                transition: all 250ms ease;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
