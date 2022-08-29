@@ -2,6 +2,7 @@
   "conventionalCommits.scopes": [
     "build",
     "array-search",
-    "text"
+    "text",
+    "collapsible-box"
   ]
 }

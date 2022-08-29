@@ -19,6 +19,9 @@ export default function Home() {
         <li>
           <a href="/pokedex">PokéDex</a>
         </li>
+        <li>
+          <a href="/collapsible-box">Collapsible Box</a>
+        </li>
       </ul>
     </div>
   );
