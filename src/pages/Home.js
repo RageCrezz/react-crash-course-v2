@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="home-landing">
       <h1>Kerem's Sandbox</h1>
-      <p>Welcome to my sandbox! Choose a component you want to work on:</p>
+      <p>Welcome to my sandbox! Choose a project you want to work on:</p>
 
       <ul>
         <li>
